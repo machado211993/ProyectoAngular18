@@ -1,0 +1,11 @@
+<h1>Formulario con Two-way Data Binding</h1>
+<form>
+  <label for="nombre">Nombre:</label>
+  <input
+    id="nombre"
+    [(ngModel)]="nombre"
+    name="nombre"
+    placeholder="Ingresa tu nombre"
+  />
+  <p>Hola, {{ nombre }}!</p>
+</form>

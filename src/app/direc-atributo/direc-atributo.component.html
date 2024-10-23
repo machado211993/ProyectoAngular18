@@ -1,0 +1,2 @@
+<h1 [ngClass]="{ activo: isActive, inactivo: !isActive }">{{ title }}</h1>
+<button (click)="isActive = !isActive">Activar/Desactivar</button>
